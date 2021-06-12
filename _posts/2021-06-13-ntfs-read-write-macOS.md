@@ -2,13 +2,13 @@
 layout: post
 title: Make NTFS USB Flashes read and write in macOS
 subtitle: A simple script to make NTFS USB Flashes read and write in macOS without reformatting it
-tags: [ntfs, macOS]
+tags: [NTFS, macOS]
 readtime: true
 ---
 
-I had an issue when I first used my new MackBook Pro, I had yosemite installed then.
+I had an issue when I first used my new MacBook Pro. I had Yosemite installed then.
 
-I wanted to get some data from my old PC, a regular way was to copy them using a flash drive and plug it in the MBP and paste them into the specified location.
+I wanted to get some data from my old PC. The regular way is copying them using a flash drive and paste them into the specified location.
 
 But I found that the macOS doesn't allow the users to copy from the NTFS formatted flash drives, so I had to search about a way to do that. I found so tools but they were not free to use and I had to buy one of them to achieve what I wanted to do. I think I bought some one of them but really don't remember what was it.
 
@@ -17,12 +17,12 @@ Then I decided to search about how to fix it using the code _as I'm a software e
 #### Here is a simple **python** script that do the following: 
 1. Lists the available disks in your macOS
 2. Asks you if you see your NTFS flash drive 
-3. Then if you see it will ask you to enter its name to mount it to be used as a normal flash drive
-4. It will use a tool called `ntfs-3g` [_read more about it_](https://github.com/osxfuse/osxfuse/wiki/NTFS-3G), it can be installed using Homebrew `brew install ntfs-3g`
-5. Finally it will mount the NTFS volumes in read-write mode
+3. Then, if you see it will ask you to enter its name to mount it to be used as a normal flash drive
+4. It will use a tool called `ntfs-3g` [_read more about it_](https://github.com/osxfuse/osxfuse/wiki/NTFS-3G), it can be installed using Home-brew `brew install ntfs-3g`
+5. Finally, it will mount the NTFS volumes in read-write mode
 
 All you need to do to have the following script working is:
-1. Make sure that you have python installed, it can be installed using Homebrew also `brew install python`
+1. Make sure that you have python installed, it can be installed using Home-brew also `brew install python`
 2. Copy the script to anywhere in your macOS.
 3. Plugin the NTFS flash drive.
 3. Run it `python <THE-NAME-OF-THE-SCRIPT>.py`
