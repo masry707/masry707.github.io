@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: "Source Code"
+title: Source Code
 
 # Your name to show in the footer
-author: "Ahmed El-Masry"
+author: Ahmed El-Masry
 
 # --- List of links in the navigation bar --- #
 
@@ -236,4 +236,6 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+remove-ads: true
 
