@@ -2,7 +2,7 @@
 layout: post
 title: Make NTFS USB Flashes read and write in macOS
 subtitle: A simple script to make NTFS USB Flashes read and write in macOS without reformatting it
-tags: [NTFS, macOS]
+tags: [NTFS, macOS, python]
 readtime: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: How to stop propagation in React AG-Grid custom cell renderers
 subtitle: The right way to stop propagation in React AG-Grid custom cell renderers
-tags: [react, ag-grid]
+tags: [react, ag-grid, javascript]
 readtime: true
 ---
 
